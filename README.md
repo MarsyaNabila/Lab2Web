@@ -73,7 +73,42 @@ Output:
 <img width="1919" height="675" alt="Screenshot 2025-10-02 201711" src="https://github.com/user-attachments/assets/09d87769-38fb-490f-91a4-bc0ee1e90f01" />
 
 Penjelasan: 
+
 CSS digunakan untuk mengatur tampilan halaman web agar lebih menarik. Pada contoh ini, body diberi warna background agar tidak monoton putih, serta jenis font diganti ke Arial supaya lebih modern. Elemen h1 dijadikan lebih menonjol dengan transformasi huruf kapital (```text-transform: uppercase```) dan jarak antar huruf (```letter-spacing```). Sedangkan elemen p diberi gaya yang lebih lembut: abu-abu gelap, miring, dan ukuran lebih besar agar mudah dibaca. Eksperimen ini menunjukkan bagaimana hanya dengan beberapa baris CSS tampilan web bisa berubah drastis dari sekadar teks biasa menjadi halaman yang lebih estetik.
+
+### 2. Apa perbedaan pendeklarasian CSS elemen h1 {...} dengan #intro h1 {...}? berikan penjelasannya!
+
+<img width="1582" height="774" alt="Screenshot 2025-10-02 202957" src="https://github.com/user-attachments/assets/9b9293c2-caf1-427e-b119-248491dd588f" />
+
+Output:
+
+<img width="1919" height="557" alt="Screenshot 2025-10-02 202943" src="https://github.com/user-attachments/assets/37b8dbef-fec4-4d7d-9723-99f044e38696" />
+
+Penjelasan:
+
+Dalam CSS ada konsep selector yang menentukan elemen mana yang akan diberi gaya.
+
+1. Selektor Umum ```(h1 {})```
+   
+- Aturan ini berlaku untuk semua elemen ```<h1>``` di halaman.
+  
+- Jadi kalau kita menulis ```h1 { color: red; }```, maka semua judul ```<h1>``` otomatis menjadi merah, tanpa peduli lokasinya.
+
+2. Selektor Spesifik ```(#intro h1 {})```
+
+- Aturan ini lebih sempit cakupannya: hanya ```<h1>``` yang berada di dalam elemen yang memiliki atribut ```id="intro"```.
+
+- Misalnya kita punya ```<div id="intro"><h1>…</h1></div>```, maka ```<h1>``` di dalam div itu yang akan terkena aturan ini.
+
+- Karena sifatnya lebih spesifik daripada ```h1 {}```, maka jika ada konflik, aturan ```#intro h1``` akan menggantikan aturan umum.
+
+3. Hasil Akhir
+
+- Pada contoh, ```<h1>``` di luar #intro tidak punya aturan lain selain h1 ```{}```, sehingga dia merah.
+
+- Sedangkan ```<h1>``` yang ada di dalam #intro mendapatkan aturan dari kedua deklarasi (```h1 {}``` dan ```#intro h1 {}```). Tetapi karena ```#intro h1``` lebih spesifik, maka aturan inilah yang diikuti → teks jadi biru.
+
+
 
 
 

@@ -128,6 +128,24 @@ Warna teks akan biru, ukuran teks 18px.
 Tapi karena inline hanya mengatur warna, maka ukuran teks tetap mengikuti internal CSS (20px).
 
 
+### 4. Pada sebuah elemen HTML terdapat ID dan Class, apabila masing-masing selector tersebut terdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya! ```( <p id="paragraf-1" class="text-paragraf"> )```
+
+<img width="1564" height="883" alt="Screenshot 2025-10-02 204843" src="https://github.com/user-attachments/assets/52fe3e19-69a2-4916-be6e-fc0f6076e70d" />
+
+Output: 
+
+<img width="1919" height="607" alt="Screenshot 2025-10-02 204927" src="https://github.com/user-attachments/assets/c6f8230b-9a67-4aa9-a07d-a6eb70c99545" />
+
+Penjelasan:
+
+- Selector Class (```.text-paragraf```) → Ditandai dengan tanda titik (```.```). Bisa digunakan oleh banyak elemen. Pada kode di atas, class ```.text-paragraf``` memberikan warna merah dan ukuran teks 18px.
+
+- Selector ID (```#paragraf-1```) → Ditandai dengan tanda pagar (```#```). Bersifat unik, hanya boleh digunakan satu kali dalam satu halaman HTML. Pada kode di atas, ID ```#paragraf-1``` memberikan warna biru dan teks menjadi bold.
+
+- Ketika Elemen Memiliki ID dan Class Sekaligus → Class ```.text-paragraf``` memberi aturan warna merah, sedangkan ID ```#paragraf-1``` memberi aturan warna biru. Karena ID memiliki prioritas lebih tinggi dibanding Class, maka warna yang tampil adalah biru.
+
+
+
 
 
 

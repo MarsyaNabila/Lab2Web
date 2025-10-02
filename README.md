@@ -22,7 +22,8 @@ Hasil tampilan di browser:
 
 CSS internal diletakkan pada tag ```<style>``` yang berada di dalam ```<head>```. Melalui cara ini kita bisa mengatur jenis huruf, warna tulisan, ukuran heading, serta gaya tambahan pada judul. Saat aturan CSS internal diterapkan, setiap elemen yang terkena selektor akan langsung menampilkan perubahan sesuai dengan deklarasi yang dibuat.
 
-<img width="1919" height="754" alt="image" src="https://github.com/user-attachments/assets/db23af56-e272-479f-811a-c3053f151e0e" />
+<img width="1640" height="609" alt="Screenshot 2025-10-02 194141" src="https://github.com/user-attachments/assets/7fdd8b07-3fbc-4959-866d-c8496b3a41fc" />
+
 
 Hasil tampilan di browser:
 

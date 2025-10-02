@@ -39,6 +39,19 @@ Hasil tampilan di browser:
 
 <img width="1916" height="755" alt="Screenshot 2025-10-02 195009" src="https://github.com/user-attachments/assets/33f6c774-cd9d-4b87-af4f-c775a49bfcdb" />
 
+## 4. Membuat CSS eksternal
+
+Langkah berikutnya adalah membuat sebuah file stylesheet eksternal dengan nama ```style_eksternal.css```. Di dalam file tersebut dituliskan berbagai aturan gaya, contohnya pengaturan untuk menu navigasi, tautan, serta desain tombol. Setelah aturan selesai dibuat, file CSS ini dihubungkan ke dokumen HTML menggunakan tag ```<link rel="stylesheet" href="style_eksternal.css">``` yang diletakkan pada bagian <head>. Dengan cara ini, tampilan halaman web akan menyesuaikan aturan yang ada di file CSS eksternal tersebut.
+
+<img width="1580" height="415" alt="Screenshot 2025-10-02 195501" src="https://github.com/user-attachments/assets/f5ad55cd-5a5f-47d8-89a9-637973f3b75e" />
+
+Hasil tampilan di browser:
+
+<img width="1919" height="695" alt="44" src="https://github.com/user-attachments/assets/7cd6b005-7c51-4f9b-8c33-f87824384a42" />
+
+
+
+
 
 
 

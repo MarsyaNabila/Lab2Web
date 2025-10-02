@@ -64,7 +64,20 @@ Hasil tampilan di browser:
 
 <img width="1001" height="349" alt="Screenshot 2025-10-02 200634" src="https://github.com/user-attachments/assets/739a0f9a-1cad-45e9-95a6-4fa959d9a0a2" />
 
-## 1. 
+### 1. Lakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul ini.
+
+<img width="1576" height="802" alt="Screenshot 2025-10-02 201741" src="https://github.com/user-attachments/assets/2c023b37-9382-467c-9b9c-15716d90014b" />
+
+Output:
+
+<img width="1919" height="675" alt="Screenshot 2025-10-02 201711" src="https://github.com/user-attachments/assets/09d87769-38fb-490f-91a4-bc0ee1e90f01" />
+
+Penjelasan: 
+CSS digunakan untuk mengatur tampilan halaman web agar lebih menarik. Pada contoh ini, body diberi warna background agar tidak monoton putih, serta jenis font diganti ke Arial supaya lebih modern. Elemen h1 dijadikan lebih menonjol dengan transformasi huruf kapital (```text-transform: uppercase```) dan jarak antar huruf (```letter-spacing```). Sedangkan elemen p diberi gaya yang lebih lembut: abu-abu gelap, miring, dan ukuran lebih besar agar mudah dibaca. Eksperimen ini menunjukkan bagaimana hanya dengan beberapa baris CSS tampilan web bisa berubah drastis dari sekadar teks biasa menjadi halaman yang lebih estetik.
+
+
+
+
 
 
 

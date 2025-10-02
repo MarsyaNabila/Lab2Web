@@ -49,6 +49,26 @@ Hasil tampilan di browser:
 
 <img width="1919" height="695" alt="44" src="https://github.com/user-attachments/assets/7cd6b005-7c51-4f9b-8c33-f87824384a42" />
 
+## 5. Pilih  pemilih CSS
+
+Selector digunakan sebagai cara untuk menentukan elemen mana yang akan diberi aturan gaya. Jika menggunakan ID Selector (```#id```), aturan tersebut hanya akan diterapkan pada satu elemen yang memiliki id spesifik saja. Sementara itu, Class Selector (```.class```) memungkinkan sebuah aturan dipakai oleh lebih dari satu elemen, sehingga bisa digunakan berulang kali di berbagai bagian halaman.
+
+<img width="1569" height="602" alt="Screenshot 2025-10-02 200125" src="https://github.com/user-attachments/assets/4e7c408a-89bb-4abc-aad1-67a0d20dea89" />
+
+Hasil tampilan di browser:
+
+<img width="1919" height="818" alt="55" src="https://github.com/user-attachments/assets/552f4c57-ed57-45ae-892f-16bdf34d7e4c" />
+
+
+## Pertanyaan Dan Tugas
+
+<img width="1001" height="349" alt="Screenshot 2025-10-02 200634" src="https://github.com/user-attachments/assets/739a0f9a-1cad-45e9-95a6-4fa959d9a0a2" />
+
+## 1. 
+
+
+
+
 
 
 

@@ -29,6 +29,20 @@ Hasil tampilan di browser:
 
 <img width="1919" height="754" alt="Screenshot 2025-10-02 194302" src="https://github.com/user-attachments/assets/52fc5335-7e0e-4074-a709-6892f7ae41ba" />
 
+## 3. Menambahkan inline CSS
+
+Inline CSS diterapkan langsung pada tag HTML dengan menambahkan atribut ```style```. Misalnya pada paragraf bisa dituliskan ```<p style="text-align: center; color: #ccd8e4;"> ... </p>```. Aturan ini hanya berpengaruh pada elemen yang diberikan atribut tersebut dan tidak memengaruhi elemen lain. Dalam urutan prioritas, inline CSS berada di tingkat paling atas dibandingkan internal maupun eksternal, sehingga jika ada konflik gaya, inline CSS yang akan ditampilkan di browser.
+
+<img width="1123" height="96" alt="Screenshot 2025-10-02 194855" src="https://github.com/user-attachments/assets/72c266fe-f701-4134-b72d-1118d919e409" />
+
+Hasil tampilan di browser:
+
+<img width="1916" height="755" alt="Screenshot 2025-10-02 195009" src="https://github.com/user-attachments/assets/33f6c774-cd9d-4b87-af4f-c775a49bfcdb" />
+
+
+
+
+
 
 
 

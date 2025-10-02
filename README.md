@@ -10,3 +10,7 @@ Kelas: TI.24.A4
 ## 1. Membuat Dokumen HTML Dasar
 
 Langkah awal yaitu membuat file baru bernama ```lab2_css_dasar.html```. Di file ini dituliskan struktur HTML dasar yang mencakup elemen header, navigasi, dan div intro. Struktur tersebut disiapkan sebagai konten awal yang nantinya akan diberi tampilan menggunakan CSS.
+
+<img width="1658" height="981" alt="1" src="https://github.com/user-attachments/assets/a76e1242-4fd2-4e4d-923e-01daf85c579e" />
+
+

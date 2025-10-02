@@ -8,6 +8,7 @@ nav a {
     text-decoration: none;
     padding: 10px 20px;
 }
+nav .active,
 nav a:hover {
     background: #0B6B3A;
 }
@@ -34,4 +35,5 @@ nav a:hover {
 }
 .btn-primary {
     background: #E42A42;
+
 }

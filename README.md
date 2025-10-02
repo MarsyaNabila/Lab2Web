@@ -109,6 +109,30 @@ Dalam CSS ada konsep selector yang menentukan elemen mana yang akan diberi gaya.
 - Sedangkan ```<h1>``` yang ada di dalam #intro mendapatkan aturan dari kedua deklarasi (```h1 {}``` dan ```#intro h1 {}```). Tetapi karena ```#intro h1``` lebih spesifik, maka aturan inilah yang diikuti → teks jadi biru.
 
 
+### 3. Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS pada elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya!
+
+<img width="1570" height="771" alt="Screenshot 2025-10-02 203935" src="https://github.com/user-attachments/assets/583bc9a2-3f15-4502-9751-64b924aa0933" />
+
+<img width="1578" height="156" alt="Screenshot 2025-10-02 203951" src="https://github.com/user-attachments/assets/4c437841-beb0-4b2f-89a7-a3541b3992aa" />
+
+Output:
+
+<img width="1919" height="637" alt="Screenshot 2025-10-02 203924" src="https://github.com/user-attachments/assets/fb487461-b447-4bc4-9ded-496b91983c7a" />
+
+- Eksternal CSS (```style.css```) → Aturan ini berlaku untuk semua elemen <p> jika tidak ada aturan lain yang lebih spesifik.
+Warna teks akan biru, ukuran teks 18px.
+
+- nternal CSS (dalam tag ```<style>``` di HTML) → Aturan ini ditulis di dalam file HTML, dan biasanya lebih prioritas dibanding eksternal CSS jika selector-nya sama. Maka, warna teks akan berubah menjadi merah, ukuran teks 20px.
+
+- Inline CSS (dalam atribut elemen HTML) → Inline CSS memiliki prioritas tertinggi, sehingga properti color akan mengikuti green (hijau), meskipun internal atau eksternal CSS sudah mengatur color berbeda.
+Tapi karena inline hanya mengatur warna, maka ukuran teks tetap mengikuti internal CSS (20px).
+
+
+
+
+
+
+
 
 
 
